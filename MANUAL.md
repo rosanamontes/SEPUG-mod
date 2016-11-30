@@ -1,7 +1,11 @@
-=== MANUAL DE INSTALACIÓN Y CONFIGURACION DEL MÓDULO SEPUG: SISTEMA DE EVALUACIÓN DEL PROFESORADO DE LA UNIVERSIDAD DE GRANADA v1.0 ===
+=== MANUAL DE INSTALACIÓN Y CONFIGURACION DEL MÓDULO SEPUG: SISTEMA DE EVALUACIÓN DEL PROFESORADO DE LA UNIVERSIDAD DE GRANADA v1.2 ===
 
 Advertencia: este plugin ha sido desarrollado para Moodle 2.5.5+, tanto la instalación como el funcionamiento de dicho plugin
 no está garantizado para una versión de Moodle que no sea la misma.
+Ha sido probado con exito en Moodle 2.6
+
+El objetivo de este fork es comentar los cambios para su correcto uso en Moodle 3.1
+
 
 == PRECONFIGURACIÓN (OPCIONAL) ==
 
@@ -30,6 +34,8 @@ Como administrador, acceder a Configuraciones > Administración del sitio > Noti
 3º Comprobar permisos:
 
 Para asegurarse de que todo estudiante puede acceder a los cuestionarios o que todos los profesores pueden visualizar los resultados, es recomendable comprobar de que los usuarios dispongan de los permisos suficientes y correctos.
+
+Nota: estos pasos son válidos en Moodle 3.1
 
 == CONFIGURACION ==
 
