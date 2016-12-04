@@ -59,8 +59,8 @@ class mod_sepug_mod_form extends moodleform_mod {
         }
         $mform->addRule('name', null, 'required', null, 'client');
 		
-		// Description
-        $this->add_intro_editor(false, get_string('customintro', 'sepug'));
+		// Description_*
+        $this->standard_intro_elements(false, get_string('customintro', 'sepug'));
 		
 		//-------------------------------------------------------------------------------
 		// AVAILABILITY
